@@ -3,16 +3,14 @@
     flex-direction: column;
     height: 100vh;
     padding: 25px;
+    background-color: black;
 }
 .header{
     flex:1;
-    background-color: aquamarine;
 }
 .tv_show_details{
     flex: 2;
-    background-color:chocolate
 }
 .recommendations{
     flex: 1;
-    background-color:teal
 }
