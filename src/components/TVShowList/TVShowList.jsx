@@ -4,7 +4,7 @@ import style from "./style.module.css";
 export function TVShowList({ onClickItem, tvShowList }) {
   return (
     <>
-      <div className={style.title}> You may also like </div>
+      <div className={style.title}> Les séries liées </div>
       <div className={style.list}>
         {tvShowList.map((tvShow) => {
           return (

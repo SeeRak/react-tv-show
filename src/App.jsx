@@ -70,11 +70,7 @@ export function App() {
       <div className={style.header}>
         <div className="row">
           <div className="col-4">
-            <Logo
-              image={logo}
-              title="TvFlex"
-              subtitle="Find a show you may like "
-            />
+            <Logo image={logo} title="TvFlex" subtitle="Trouves une série " />
           </div>
           <div className="col-md-12 col-lg-4">
             <SearchBar onSubmit={searchTvShow} />

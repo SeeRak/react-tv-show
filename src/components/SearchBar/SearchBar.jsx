@@ -13,7 +13,7 @@ export function SearchBar({ onSubmit }) {
         onKeyUp={submit}
         className={style.input}
         type="text"
-        placeholder="Search a tv show you may like"
+        placeholder="Recherches une série"
         name=""
       />
     </>
