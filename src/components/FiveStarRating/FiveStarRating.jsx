@@ -11,7 +11,6 @@ export function FiveStarRating({ rating }) {
   // Nbr d'étoiles vide
   const emptyStarCount = 5 - starFillCount - (hasStarHalf ? 1 : 0);
 
-  console.log(starFillCount, hasStarHalf, emptyStarCount);
   for (let i = 1; i <= starFillCount; i++) {
     starList.push(<StarFill key={"start-fill" + i} />);
   }
